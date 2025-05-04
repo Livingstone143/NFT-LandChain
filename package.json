@@ -1,0 +1,47 @@
+{
+  "name": "landchain",
+  "version": "1.0.0",
+  "description": "Blockchain Land Record Management System",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network sepolia",
+    "seed": "ts-node --project tsconfig.json scripts/seedDatabase.ts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "@walletconnect/ethereum-provider": "^2.10.0",
+    "@walletconnect/modal": "^2.6.2",
+    "bufferutil": "^4.0.7",
+    "clsx": "^2.1.1",
+    "ethers": "^5.7.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.487.0",
+    "mongoose": "^7.0.3",
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.5.2",
+    "react-leaflet": "^4.2.1",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "utf-8-validate": "^6.0.3",
+    "viem": "^0.3.12",
+    "wagmi": "^0.12.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.33",
+    "autoprefixer": "^10.4.14",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.13.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
